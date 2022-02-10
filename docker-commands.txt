@@ -1,0 +1,5 @@
+docker build --tag <image_name> .
+docker run --publish 8000:8000 <image_name>
+
+docker tag <image_name>:latest iamswayam/re-dj-app:myfirstreactimagepush
+docker push iamswayam/re-dj-app:myfirstreactimagepush       
